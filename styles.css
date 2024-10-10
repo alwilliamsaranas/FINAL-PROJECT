@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#home, #about, #schedule {
+    background-color: #fff;
+}
