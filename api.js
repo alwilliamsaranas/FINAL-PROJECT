@@ -8,14 +8,14 @@ export default async function handler(req, res) {
     let transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'your-email@gmail.com',
-        pass: 'your-email-password'
+        user: 'williamsaranas@gmail.com',
+        pass: 'Al12092002'
       }
     });
 
     let mailOptions = {
-      from: 'your-email@gmail.com',
-      to: 'recipient-email@gmail.com',
+      from: 'williamsaranas@gmail.com',
+      to: 'jay.valencia072000@gmail.com',
       subject: 'Light Status Notification',
       text: The light is now ${status}.
     };
